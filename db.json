@@ -45,24 +45,6 @@
       "columnId": 2
     },
     {
-      "id": 7,
-      "title": "test",
-      "description": "hbasdbkl",
-      "columnId": 2
-    },
-    {
-      "id": 8,
-      "title": "another~",
-      "description": "whoaaaaa",
-      "columnId": 1
-    },
-    {
-      "id": 9,
-      "title": "woop woop",
-      "description": "wow",
-      "columnId": 1
-    },
-    {
       "id": 10,
       "title": "ikigai",
       "description": "",
@@ -75,9 +57,21 @@
       "columnId": 2
     },
     {
-      "id": 12,
-      "title": "Moon",
-      "description": "moon moon",
+      "id": 13,
+      "title": "more notes",
+      "description": "wooo",
+      "columnId": 3
+    },
+    {
+      "id": 14,
+      "title": "nutella",
+      "description": "hazelnut",
+      "columnId": 1
+    },
+    {
+      "id": 15,
+      "title": "Teddy",
+      "description": "Bears",
       "columnId": 3
     }
   ]

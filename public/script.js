@@ -13,6 +13,7 @@ window.addEventListener('load', () => {
     newcardsubmit.addEventListener("click", createCard);
     let newcolsubmit = document.getElementById("newcolsubmit");
     newcolsubmit.addEventListener("click", createCol);
+
 });
 
 //get columns
@@ -63,7 +64,6 @@ let optionsselect = function() {
 
     let defaultOption = document.createElement('option');
     defaultOption.text = 'Select Category';
-
     dropdown.add(defaultOption);
     dropdown.selectedIndex = 0;
 
@@ -106,12 +106,12 @@ document.getElementById("addnotebtn").addEventListener("click", function(){
     }
 });
 
+// create a new card
 let createCard = function() {
     let id = noteId;
     let title = document.getElementById('cardtitle').value
     let description = document.getElementById('carddesc').value
     let columnId = parseInt(document.getElementById('selectcols').value)
-
 
     fetch('/cards', {
         headers: {
@@ -130,6 +130,7 @@ let createCard = function() {
         // .then(data => console.log(data))
 }
 
+//create a new column
 let createCol = function() {
     let id = colId;
     let title = document.getElementById('coltitle').value
