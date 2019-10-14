@@ -148,5 +148,4 @@ let createCol = function() {
         }),
     })
         .then(response => response.json())
-        // .then(data => console.log(data))
 }

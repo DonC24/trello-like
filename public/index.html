@@ -10,22 +10,24 @@
     </header>
 
     <main class="mainwrap">
-        <button id="addcatbtn">Add Category</button>
-        <button id="addnotebtn">New Note</button>
-        <div id="newcat" style="display: none">
-            <form>
-                Category Title: <input id="coltitle" type="text" name="title" required><br />
-                <input id="newcolsubmit" type="submit" value="Submit">
-            </form>
+        <div class="addbtn"><button id="addcatbtn">Add Category</button>
+            <div id="newcat" style="display: none">
+                <form>
+                    Category Title: <input id="coltitle" type="text" name="title" required><br />
+                    <input id="newcolsubmit" type="submit" value="Submit">
+                </form>
+            </div>
         </div>
-        <div id="newnote" style="display: none">
-            <form>
-                Category: <select id="selectcols" name="columns">
-                </select><br />
-                Title: <input id="cardtitle" type="text" name="title" required><br />
-                Description: <input id="carddesc" type="text" name="description"> <br />
-                <input id="newcardsubmit" type="submit" value="Submit">
-            </form>
+        <div class="addbtn"><button id="addnotebtn">New Note</button>
+            <div id="newnote" style="display: none">
+                <form>
+                    Category: <select id="selectcols" name="columns">
+                    </select><br />
+                    Title: <input id="cardtitle" type="text" name="title" required><br />
+                    Description: <input id="carddesc" type="text" name="description"> <br />
+                    <input id="newcardsubmit" type="submit" value="Submit">
+                </form>
+            </div>
         </div>
     </main>
 

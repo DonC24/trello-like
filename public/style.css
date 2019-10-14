@@ -1,0 +1,14 @@
+*{
+	box-sizing: border-box;
+}
+
+.mainwrap {
+	display: flex;
+}
+
+.category{
+	width: 30vw;
+	border: 2px solid;
+	padding: 10px;
+	justify-content: space-around;
+}

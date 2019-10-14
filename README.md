@@ -2,6 +2,15 @@
 
 This page contains description and requirements for a Front-End assignment on [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components).
 
+### What was done
+
+1. Used vanilla HTML, CSS and JS and web components to create a Trello like app.
+2. The application consumes data of a fake API powered by [JSON Server](https://github.com/typicode/json-server).
+3. Able to display all columns with all cards, create a new column and card, and delete a card.
+4. Creation and deletion of cards/columns are saved to the db.json file.
+
+
+
 ### Duration
 
 The duration of this assessment is **two days**. The scope of the assessment is intentionally large to give you room to show which aspects of development you would prioritize.
